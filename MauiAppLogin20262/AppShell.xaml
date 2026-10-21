@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiAppLogin20262.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiAppLogin20262"
+    xmlns:Views="clr-namespace:MauiAppLogin20262.Views"
+    Shell.NavBarIsVisible="False"
+    Title="MauiAppLogin20262">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate Views:Login}"
+        Route="MainPage" />
+
+</Shell>
